@@ -1,0 +1,302 @@
+{
+    "Default": {},
+    "[ Square ]": {},
+    "[S]   512x512 1:1": {
+        "txt2img_enable_hr": false,
+        "txt2img_height": 512,
+        "txt2img_hr_scale": 1,
+        "txt2img_width": 512
+    },
+    "[S]   768x768 1:1": {
+        "txt2img_enable_hr": false,
+        "txt2img_height": 768,
+        "txt2img_hr_scale": 1,
+        "txt2img_width": 768
+    },
+    "[S]  1024x1024 1:1": {
+        "txt2img_enable_hr": false,
+        "txt2img_height": 1024,
+        "txt2img_hr_scale": 1,
+        "txt2img_width": 1024
+    },
+    "[S]  2048x2048 1:1": {
+        "txt2img_enable_hr": false,
+        "txt2img_height": 2048,
+        "txt2img_hr_scale": 1,
+        "txt2img_width": 2048
+    },
+    "[ Square Upscaled ]": {},
+    "[Su]  768x768 1:1 1.5x 512x512": {
+        "txt2img_enable_hr": true,
+        "txt2img_height": 512,
+        "txt2img_hr_scale": 1.5,
+        "txt2img_width": 512
+    },
+    "[Su] 1024x1024 1:1 2x 512x512": {
+        "txt2img_enable_hr": true,
+        "txt2img_height": 512,
+        "txt2img_hr_scale": 2,
+        "txt2img_width": 512
+    },
+    "[Su] 2048x2048 1:1 2x 1024x1024": {
+        "txt2img_enable_hr": true,
+        "txt2img_height": 1024,
+        "txt2img_hr_scale": 2,
+        "txt2img_width": 1024
+    },
+    "[Su] 2048x2048 1:1 4x 512x512": {
+        "txt2img_enable_hr": true,
+        "txt2img_height": 512,
+        "txt2img_hr_scale": 4,
+        "txt2img_width": 512
+    },
+    "[ Landscape ]": {},
+    "[L]   640x360 16:9": {
+        "txt2img_enable_hr": false,
+        "txt2img_height": 360,
+        "txt2img_hr_scale": 1,
+        "txt2img_width": 640
+    },
+    "[L]   640x480 4:3 --VGA--": {
+        "txt2img_enable_hr": false,
+        "txt2img_height": 480,
+        "txt2img_hr_scale": 1,
+        "txt2img_width": 640
+    },
+    "[L]   688x384 ~16:9": {
+        "txt2img_enable_hr": false,
+        "txt2img_height": 384,
+        "txt2img_hr_scale": 1,
+        "txt2img_width": 688
+    },
+    "[L]  1024x576 16:9": {
+        "txt2img_enable_hr": false,
+        "txt2img_height": 576,
+        "txt2img_hr_scale": 1,
+        "txt2img_width": 1024
+    },
+    "[L]  1280x720 16:9 --HD--": {
+        "txt2img_enable_hr": false,
+        "txt2img_height": 720,
+        "txt2img_hr_scale": 1,
+        "txt2img_width": 1280
+    },
+    "[L]  1368x768 ~16:9": {
+        "txt2img_enable_hr": false,
+        "txt2img_height": 768,
+        "txt2img_hr_scale": 1,
+        "txt2img_width": 1368
+    },
+    "[L]  1824x1024 ~16:9": {
+        "txt2img_enable_hr": false,
+        "txt2img_height": 1024,
+        "txt2img_hr_scale": 1,
+        "txt2img_width": 1824
+    },
+    "[L]  1920x1080 16:9 --FHD--": {
+        "txt2img_enable_hr": false,
+        "txt2img_height": 1080,
+        "txt2img_hr_scale": 1,
+        "txt2img_width": 1920
+    },
+    "[L]  2048x1152 16:9 --2K--": {
+        "txt2img_enable_hr": false,
+        "txt2img_height": 1152,
+        "txt2img_hr_scale": 1,
+        "txt2img_width": 2048
+    },
+    "[L]  3840x2160 16:9 --UHD--": {
+        "txt2img_enable_hr": false,
+        "txt2img_height": 2160,
+        "txt2img_hr_scale": 1,
+        "txt2img_width": 3840
+    },
+    "[L]  4096x2160 1.9:1 --4K--": {
+        "txt2img_enable_hr": false,
+        "txt2img_height": 2160,
+        "txt2img_hr_scale": 1,
+        "txt2img_width": 4096
+    },
+    "[ Landscape Upscaled ]": {},
+    "[Lu] 1280x720 2x 640x360 --HD--": {
+        "txt2img_enable_hr": true,
+        "txt2img_height": 360,
+        "txt2img_hr_scale": 2,
+        "txt2img_width": 640
+    },
+    "[Lu] 1368x768 2x 688x384": {
+        "txt2img_enable_hr": true,
+        "txt2img_height": 384,
+        "txt2img_hr_scale": 2,
+        "txt2img_width": 688
+    },
+    "[Lu] 1824x1024 2x 912x512": {
+        "txt2img_enable_hr": true,
+        "txt2img_height": 512,
+        "txt2img_hr_scale": 2,
+        "txt2img_width": 912
+    },
+    "[Lu] 1920x1080 2x 960x540": {
+        "txt2img_enable_hr": true,
+        "txt2img_height": 540,
+        "txt2img_hr_scale": 2,
+        "txt2img_width": 960
+    },
+    "[Lu] 3840x2160 4x 960x540 --UHD--": {
+        "txt2img_enable_hr": true,
+        "txt2img_height": 540,
+        "txt2img_hr_scale": 4,
+        "txt2img_width": 960
+    },
+    "[ Portrait ]": {},
+    "[P]   360x640 9:16": {
+        "txt2img_enable_hr": false,
+        "txt2img_height": 640,
+        "txt2img_hr_scale": 1,
+        "txt2img_width": 360
+    },
+    "[P]   480x640 3:4 --VGAp--": {
+        "txt2img_enable_hr": false,
+        "txt2img_height": 640,
+        "txt2img_hr_scale": 1,
+        "txt2img_width": 480
+    },
+    "[P]   384x688 ~9:16": {
+        "txt2img_enable_hr": false,
+        "txt2img_height": 688,
+        "txt2img_hr_scale": 1,
+        "txt2img_width": 384
+    },
+    "[P]  576x1024 9:16": {
+        "txt2img_enable_hr": false,
+        "txt2img_height": 1024,
+        "txt2img_hr_scale": 1,
+        "txt2img_width": 576
+    },
+    "[P]   720x1280 9:16 --HDp--": {
+        "txt2img_enable_hr": false,
+        "txt2img_height": 1280,
+        "txt2img_hr_scale": 1,
+        "txt2img_width": 720
+    },
+    "[P]   768x1368 ~ 9:16": {
+        "txt2img_enable_hr": false,
+        "txt2img_height": 1368,
+        "txt2img_hr_scale": 1,
+        "txt2img_width": 768
+    },
+    "[P]  1024x1824 ~9:16": {
+        "txt2img_enable_hr": false,
+        "txt2img_height": 1824,
+        "txt2img_hr_scale": 1,
+        "txt2img_width": 1024
+    },
+    "[P]  1080x1920 9:16 --FHDp--": {
+        "txt2img_enable_hr": false,
+        "txt2img_height": 1920,
+        "txt2img_hr_scale": 1,
+        "txt2img_width": 1080
+    },
+    "[P]  1152x2048 9:16 --2Kp--": {
+        "txt2img_enable_hr": false,
+        "txt2img_height": 2048,
+        "txt2img_hr_scale": 1,
+        "txt2img_width": 1152
+    },
+    "[P]  2160x3840 9:16 --UHDp--": {
+        "txt2img_enable_hr": false,
+        "txt2img_height": 3840,
+        "txt2img_hr_scale": 1,
+        "txt2img_width": 2160
+    },
+    "[P]  2160x4096 1:1.9 --4Kp--": {
+        "txt2img_enable_hr": false,
+        "txt2img_height": 4096,
+        "txt2img_hr_scale": 1,
+        "txt2img_width": 2160
+    },
+    "[ Portrait Upscaled ]": {},
+    "[Pu]  720x1280 9:16 2x 360x640 --HDp--": {
+        "txt2img_enable_hr": true,
+        "txt2img_height": 640,
+        "txt2img_hr_scale": 2,
+        "txt2img_width": 360
+    },
+    "[Pu]  768x1368 ~9:16 2x 384x688": {
+        "txt2img_enable_hr": true,
+        "txt2img_height": 688,
+        "txt2img_hr_scale": 2,
+        "txt2img_width": 384
+    },
+    "[Pu] 1024x1824 ~9:16 2x 512x912": {
+        "txt2img_enable_hr": true,
+        "txt2img_height": 912,
+        "txt2img_hr_scale": 2,
+        "txt2img_width": 512
+    },
+    "[Pu] 1080x1920 9:16 2x 540x960": {
+        "txt2img_enable_hr": true,
+        "txt2img_height": 960,
+        "txt2img_hr_scale": 2,
+        "txt2img_width": 540
+    },
+    "[Pu] 2160x3840 9:16 via 540x960 --UHDp--": {
+        "txt2img_enable_hr": true,
+        "txt2img_height": 960,
+        "txt2img_hr_scale": 4,
+        "txt2img_width": 540
+    },
+    "[ Extreme ]": {},
+    "[X] 64x64 1:1": {
+        "txt2img_enable_hr": false,
+        "txt2img_height": 64,
+        "txt2img_hr_scale": 1,
+        "txt2img_width": 64
+    },
+    "[X] 256x256 1:1": {
+        "txt2img_enable_hr": false,
+        "txt2img_height": 256,
+        "txt2img_hr_scale": 1,
+        "txt2img_width": 256
+    },
+    "[X] 3840x3840 1:1": {
+        "txt2img_enable_hr": false,
+        "txt2img_height": 3840,
+        "txt2img_hr_scale": 1,
+        "txt2img_width": 3840
+    },
+    "[X] 4096x4096 1:1": {
+        "txt2img_enable_hr": false,
+        "txt2img_height": 4096,
+        "txt2img_hr_scale": 1,
+        "txt2img_width": 4096
+    },
+    "[X] One Step": {
+        "img2img_steps": 1
+    },
+    "[ Extreme Upscaled ]": {},
+    "[Xu] 3840x3840 1:1 6x 512x512": {
+        "txt2img_enable_hr": true,
+        "txt2img_height": 512,
+        "txt2img_hr_scale": 6,
+        "txt2img_width": 512
+    },
+    "[Xu] 3840x3840 1:1 3x 1024x1024": {
+        "txt2img_enable_hr": true,
+        "txt2img_height": 1024,
+        "txt2img_hr_scale": 3,
+        "txt2img_width": 1024
+    },
+    "[Xu] 4096x4096 1:1 8x 512x512": {
+        "txt2img_enable_hr": false,
+        "txt2img_height": 4096,
+        "txt2img_hr_scale": 8,
+        "txt2img_width": 4096
+    },
+    "[Xu] 4096x4096 1:1 4x 1024x1024": {
+        "txt2img_enable_hr": false,
+        "txt2img_height": 1024,
+        "txt2img_hr_scale": 4,
+        "txt2img_width": 1024
+    }
+}
