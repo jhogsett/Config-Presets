@@ -1,6 +1,6 @@
 {
     "Default": {},
-    "[ Square ]": {},
+    "[  Square  ]": {},
     "[S]   512x512 1:1": {
         "txt2img_enable_hr": false,
         "txt2img_height": 512,
@@ -25,7 +25,7 @@
         "txt2img_hr_scale": 1,
         "txt2img_width": 2048
     },
-    "[ Square Upscaled ]": {},
+    "[  Square Upscaled  ]": {},
     "[Su]  768x768 1:1 1.5x 512x512": {
         "txt2img_enable_hr": true,
         "txt2img_height": 512,
@@ -51,7 +51,7 @@
         "txt2img_width": 512
     },
     "[ Landscape ]": {},
-    "[L]   640x360 16:9": {
+    "[L]   640x360 16:9 --nHD--": {
         "txt2img_enable_hr": false,
         "txt2img_height": 360,
         "txt2img_hr_scale": 1,
@@ -69,7 +69,13 @@
         "txt2img_hr_scale": 1,
         "txt2img_width": 688
     },
-    "[L]  1024x576 16:9": {
+    "[L]   960x540 16:9 --qHD--": {
+        "txt2img_enable_hr": false,
+        "txt2img_height": 540,
+        "txt2img_hr_scale": 1,
+        "txt2img_width": 960
+    },
+    "[L]  1024x576 16:9 --WSVGA--": {
         "txt2img_enable_hr": false,
         "txt2img_height": 576,
         "txt2img_hr_scale": 1,
@@ -87,6 +93,12 @@
         "txt2img_hr_scale": 1,
         "txt2img_width": 1368
     },
+    "[L]  1600x900 16:9 --HD+--": {
+        "txt2img_enable_hr": false,
+        "txt2img_height": 900,
+        "txt2img_hr_scale": 1,
+        "txt2img_width": 1600
+    },
     "[L]  1824x1024 ~16:9": {
         "txt2img_enable_hr": false,
         "txt2img_height": 1024,
@@ -99,7 +111,7 @@
         "txt2img_hr_scale": 1,
         "txt2img_width": 1920
     },
-    "[L]  2048x1152 16:9 --2K--": {
+    "[L]  2048x1152 16:9 --QWXGA--": {
         "txt2img_enable_hr": false,
         "txt2img_height": 1152,
         "txt2img_hr_scale": 1,
@@ -118,38 +130,68 @@
         "txt2img_width": 4096
     },
     "[ Landscape Upscaled ]": {},
-    "[Lu] 1280x720 2x 640x360 --HD--": {
+    "[Lu]  960x540 16:9 2x 480x270 --qHD--": {
+        "txt2img_enable_hr": false,
+        "txt2img_height": 270,
+        "txt2img_hr_scale": 2,
+        "txt2img_width": 480
+    },
+    "[Lu] 1280x720 16:9 2x 640x360 --HD--": {
         "txt2img_enable_hr": true,
         "txt2img_height": 360,
         "txt2img_hr_scale": 2,
         "txt2img_width": 640
     },
-    "[Lu] 1368x768 2x 688x384": {
+    "[Lu] 1368x768 ~16:9 2x 688x384": {
         "txt2img_enable_hr": true,
         "txt2img_height": 384,
         "txt2img_hr_scale": 2,
         "txt2img_width": 688
     },
-    "[Lu] 1824x1024 2x 912x512": {
+    "[Lu] 1600x900 16:9 4x 400x225 --HD+--": {
+        "txt2img_enable_hr": true,
+        "txt2img_height": 450,
+        "txt2img_hr_scale": 2,
+        "txt2img_width": 800
+    },
+    "[Lu] 1600x900 16:9 2x 800x450 --HD+--": {
+        "txt2img_enable_hr": true,
+        "txt2img_height": 450,
+        "txt2img_hr_scale": 2,
+        "txt2img_width": 800
+    },
+    "[Lu] 1824x1024 ~16:9 2x 912x512": {
         "txt2img_enable_hr": true,
         "txt2img_height": 512,
         "txt2img_hr_scale": 2,
         "txt2img_width": 912
     },
-    "[Lu] 1920x1080 2x 960x540": {
+    "[Lu] 1920x1080 16:9 3x 640x360": {
+        "txt2img_enable_hr": true,
+        "txt2img_height": 360,
+        "txt2img_hr_scale": 3,
+        "txt2img_width": 640
+    },
+    "[Lu] 1920x1080 16:9 2x 960x540": {
         "txt2img_enable_hr": true,
         "txt2img_height": 540,
         "txt2img_hr_scale": 2,
         "txt2img_width": 960
     },
-    "[Lu] 3840x2160 4x 960x540 --UHD--": {
+    "[Lu] 3840x2160 16:9 4x 960x540 --UHD--": {
         "txt2img_enable_hr": true,
         "txt2img_height": 540,
         "txt2img_hr_scale": 4,
         "txt2img_width": 960
     },
+    "[Lu] 3840x2160 16:9 6x 640x360 --UHD--": {
+        "txt2img_enable_hr": true,
+        "txt2img_height": 360,
+        "txt2img_hr_scale": 6,
+        "txt2img_width": 640
+    },
     "[ Portrait ]": {},
-    "[P]   360x640 9:16": {
+    "[P]   360x640 9:16 --nHDp--": {
         "txt2img_enable_hr": false,
         "txt2img_height": 640,
         "txt2img_hr_scale": 1,
@@ -167,7 +209,13 @@
         "txt2img_hr_scale": 1,
         "txt2img_width": 384
     },
-    "[P]  576x1024 9:16": {
+    "[P]   540x960 16:9 --qHDp--": {
+        "txt2img_enable_hr": false,
+        "txt2img_height": 960,
+        "txt2img_hr_scale": 1,
+        "txt2img_width": 540
+    },
+    "[P]  576x1024 9:16 --WSVGA--": {
         "txt2img_enable_hr": false,
         "txt2img_height": 1024,
         "txt2img_hr_scale": 1,
@@ -185,6 +233,12 @@
         "txt2img_hr_scale": 1,
         "txt2img_width": 768
     },
+    "[P]  900x1600 9:16 --HD+p--": {
+        "txt2img_enable_hr": false,
+        "txt2img_height": 900,
+        "txt2img_hr_scale": 1,
+        "txt2img_width": 1600
+    },
     "[P]  1024x1824 ~9:16": {
         "txt2img_enable_hr": false,
         "txt2img_height": 1824,
@@ -197,7 +251,7 @@
         "txt2img_hr_scale": 1,
         "txt2img_width": 1080
     },
-    "[P]  1152x2048 9:16 --2Kp--": {
+    "[P]  1152x2048 9:16 --QWXGAp--": {
         "txt2img_enable_hr": false,
         "txt2img_height": 2048,
         "txt2img_hr_scale": 1,
@@ -216,6 +270,12 @@
         "txt2img_width": 2160
     },
     "[ Portrait Upscaled ]": {},
+    "[Pu]  540x960 16:9 2x 270x480 --qHDp--": {
+        "txt2img_enable_hr": false,
+        "txt2img_height": 270,
+        "txt2img_hr_scale": 2,
+        "txt2img_width": 480
+    },
     "[Pu]  720x1280 9:16 2x 360x640 --HDp--": {
         "txt2img_enable_hr": true,
         "txt2img_height": 640,
@@ -228,23 +288,47 @@
         "txt2img_hr_scale": 2,
         "txt2img_width": 384
     },
+    "[Pu] 900x1600 9:16 4x 225x400 --HD+p--": {
+        "txt2img_enable_hr": true,
+        "txt2img_height": 225,
+        "txt2img_hr_scale": 2,
+        "txt2img_width": 400
+    },
+    "[Pu] 900x1600 9:16 2x 450x800 --HD+p--": {
+        "txt2img_enable_hr": true,
+        "txt2img_height": 800,
+        "txt2img_hr_scale": 2,
+        "txt2img_width": 450
+    },
     "[Pu] 1024x1824 ~9:16 2x 512x912": {
         "txt2img_enable_hr": true,
         "txt2img_height": 912,
         "txt2img_hr_scale": 2,
         "txt2img_width": 512
     },
-    "[Pu] 1080x1920 9:16 2x 540x960": {
+    "[Pu] 1080x1920 9:16 3x 640x360 --FHDp--": {
+        "txt2img_enable_hr": true,
+        "txt2img_height": 640,
+        "txt2img_hr_scale": 3,
+        "txt2img_width": 360
+    },
+    "[Pu] 1080x1920 9:16 2x 540x960 --FHDp--": {
         "txt2img_enable_hr": true,
         "txt2img_height": 960,
         "txt2img_hr_scale": 2,
         "txt2img_width": 540
     },
-    "[Pu] 2160x3840 9:16 via 540x960 --UHDp--": {
+    "[Pu] 2160x3840 9:16 4x 540x960 --UHDp--": {
         "txt2img_enable_hr": true,
         "txt2img_height": 960,
         "txt2img_hr_scale": 4,
         "txt2img_width": 540
+    },
+    "[Pu] 2160x3840 6x 360x640 --UHDp--": {
+        "txt2img_enable_hr": true,
+        "txt2img_height": 640,
+        "txt2img_hr_scale": 6,
+        "txt2img_width": 360
     },
     "[ Extreme ]": {},
     "[X] 64x64 1:1": {
@@ -281,6 +365,18 @@
         "txt2img_hr_scale": 6,
         "txt2img_width": 512
     },
+    "[Xu] 3840x3840 1:1 5x 768x768": {
+        "txt2img_enable_hr": true,
+        "txt2img_height": 768,
+        "txt2img_hr_scale": 5,
+        "txt2img_width": 768
+    },
+    "[Xu] 3840x3840 1:1 4x 960x960": {
+        "txt2img_enable_hr": true,
+        "txt2img_height": 960,
+        "txt2img_hr_scale": 4,
+        "txt2img_width": 960
+    },
     "[Xu] 3840x3840 1:1 3x 1024x1024": {
         "txt2img_enable_hr": true,
         "txt2img_height": 1024,
@@ -288,13 +384,13 @@
         "txt2img_width": 1024
     },
     "[Xu] 4096x4096 1:1 8x 512x512": {
-        "txt2img_enable_hr": false,
-        "txt2img_height": 4096,
+        "txt2img_enable_hr": true,
+        "txt2img_height": 512,
         "txt2img_hr_scale": 8,
-        "txt2img_width": 4096
+        "txt2img_width": 512
     },
     "[Xu] 4096x4096 1:1 4x 1024x1024": {
-        "txt2img_enable_hr": false,
+        "txt2img_enable_hr": true,
         "txt2img_height": 1024,
         "txt2img_hr_scale": 4,
         "txt2img_width": 1024
