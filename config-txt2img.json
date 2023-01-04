@@ -19,6 +19,12 @@
         "txt2img_hr_scale": 1,
         "txt2img_width": 1024
     },
+    "[S]  1536x1536 1:1": {
+        "txt2img_enable_hr": false,
+        "txt2img_height": 1536,
+        "txt2img_hr_scale": 1,
+        "txt2img_width": 1536
+    },
     "[S]  2048x2048 1:1": {
         "txt2img_enable_hr": false,
         "txt2img_height": 2048,
@@ -37,6 +43,36 @@
         "txt2img_height": 512,
         "txt2img_hr_scale": 2,
         "txt2img_width": 512
+    },
+    "[Su] 1152x1152 1:1 2.25x 512x512": {
+        "txt2img_enable_hr": true,
+        "txt2img_height": 512,
+        "txt2img_hr_scale": 2,
+        "txt2img_width": 512
+    },
+    "[Su] 1152x1152 1:1 2x 768x768": {
+        "txt2img_enable_hr": true,
+        "txt2img_height": 512,
+        "txt2img_hr_scale": 2,
+        "txt2img_width": 512
+    },
+    "[Su] 1024x1024 1:1 2x 512x512": {
+        "txt2img_enable_hr": true,
+        "txt2img_height": 512,
+        "txt2img_hr_scale": 2,
+        "txt2img_width": 512
+    },
+    "[S]  1536x1536 1:1 3x 512x512": {
+        "txt2img_enable_hr": true,
+        "txt2img_height": 512,
+        "txt2img_hr_scale": 3,
+        "txt2img_width": 512
+    },
+    "[S]  1536x1536 1:1 2x 768x768": {
+        "txt2img_enable_hr": true,
+        "txt2img_height": 768,
+        "txt2img_hr_scale": 2,
+        "txt2img_width": 768
     },
     "[Su] 2048x2048 1:1 2x 1024x1024": {
         "txt2img_enable_hr": true,
@@ -318,17 +354,17 @@
         "txt2img_hr_scale": 2,
         "txt2img_width": 540
     },
-    "[Pu] 2160x3840 9:16 4x 540x960 --UHDp--": {
-        "txt2img_enable_hr": true,
-        "txt2img_height": 960,
-        "txt2img_hr_scale": 4,
-        "txt2img_width": 540
-    },
     "[Pu] 2160x3840 6x 360x640 --UHDp--": {
         "txt2img_enable_hr": true,
         "txt2img_height": 640,
         "txt2img_hr_scale": 6,
         "txt2img_width": 360
+    },
+    "[Pu] 2160x3840 9:16 4x 540x960 --UHDp--": {
+        "txt2img_enable_hr": true,
+        "txt2img_height": 960,
+        "txt2img_hr_scale": 4,
+        "txt2img_width": 540
     },
     "[ Extreme ]": {},
     "[X] 64x64 1:1": {
