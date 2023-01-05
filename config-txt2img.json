@@ -62,13 +62,13 @@
         "txt2img_hr_scale": 2,
         "txt2img_width": 512
     },
-    "[S]  1536x1536 1:1 3x 512x512": {
+    "[Su] 1536x1536 1:1 3x 512x512": {
         "txt2img_enable_hr": true,
         "txt2img_height": 512,
         "txt2img_hr_scale": 3,
         "txt2img_width": 512
     },
-    "[S]  1536x1536 1:1 2x 768x768": {
+    "[Su] 1536x1536 1:1 2x 768x768": {
         "txt2img_enable_hr": true,
         "txt2img_height": 768,
         "txt2img_hr_scale": 2,
@@ -186,9 +186,9 @@
     },
     "[Lu] 1600x900 16:9 4x 400x225 --HD+--": {
         "txt2img_enable_hr": true,
-        "txt2img_height": 450,
-        "txt2img_hr_scale": 2,
-        "txt2img_width": 800
+        "txt2img_height": 225,
+        "txt2img_hr_scale": 4,
+        "txt2img_width": 400
     },
     "[Lu] 1600x900 16:9 2x 800x450 --HD+--": {
         "txt2img_enable_hr": true,
