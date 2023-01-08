@@ -47,7 +47,7 @@
     "[Su] 1152x1152 1:1 2.25x 512x512": {
         "txt2img_enable_hr": true,
         "txt2img_height": 512,
-        "txt2img_hr_scale": 2,
+        "txt2img_hr_scale": 2.25,
         "txt2img_width": 512
     },
     "[Su] 1152x1152 1:1 2x 768x768": {
