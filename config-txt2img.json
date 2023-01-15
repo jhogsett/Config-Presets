@@ -62,11 +62,11 @@
         "txt2img_hr_scale": 2,
         "txt2img_width": 576
     },
-    "[Su] 1024x1024 1:1 2x 512x512": {
+    "[Su] 1152x1152 1:1 1.5x 768x768": {
         "txt2img_enable_hr": true,
-        "txt2img_height": 512,
-        "txt2img_hr_scale": 2,
-        "txt2img_width": 512
+        "txt2img_height": 768,
+        "txt2img_hr_scale": 1.5,
+        "txt2img_width": 768
     },
     "[Su] 1536x1536 1:1 3x 512x512": {
         "txt2img_enable_hr": true,
